@@ -1,0 +1,24 @@
+{
+  "name": "personal-budget",
+  "version": "1.0.0",
+  "description": "The path to NGInx main folder: /usr/share/nginx/html",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "fabio": "Added server, Axios, and ChartJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sijianwu-lll/personal-budget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sijianwu-lll/personal-budget/issues"
+  },
+  "homepage": "https://github.com/sijianwu-lll/personal-budget#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
