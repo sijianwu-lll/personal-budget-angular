@@ -4,6 +4,7 @@ const port = 3000;
 
 app.use('/', express.static('public'));
 
+
 const budget = {
    myBudget: [
     {
@@ -12,7 +13,7 @@ const budget = {
     },
     {
         title: 'Rent',
-        budget:375
+        budget:35
     },
     {
         title: 'Grocery',
@@ -27,10 +28,12 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/budget', (req, res) => {
-    res.json(budget);
+    res.json(Budget);
 });
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 
 });
+
+const Budget = require("./Budget"); 
